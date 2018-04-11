@@ -30,7 +30,7 @@ The script can be run at the command line, easily incorporated into a galaxy (ht
 
 ### Copyright
 
-Copyright © 2018 a Syngenta group company
+Copyright ©2018, Syngenta. All rights reserved.
 
 ### License Information
 
