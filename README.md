@@ -17,12 +17,12 @@ The script also requires access to temp space (e.g./tmp) if you need to change t
 ### Usage
 
 The script accepts various command line parameters:
-..* -wildseq and - -mutseq are the two oligonucleotide sequences, as strings.
-..* -mutations is the number of mutations allowed to create the restriction site
-..* -scan (left|right|straddle|all) controls whether just mutations to the left, right, straddling (where - -mutations > 2) or all, are reported.
-..* -cut (all|wild|mut) outputs suggestions which cut either, just the wildtype or just the mutant sequence.
-..* -zero includes - -mutations=0, in order to indicate confounding cut sites.
-..* -revcomp reverse complements all sequences.
+* -wildseq and - -mutseq are the two oligonucleotide sequences, as strings.
+* -mutations is the number of mutations allowed to create the restriction site
+* -scan (left|right|straddle|all) controls whether just mutations to the left, right, straddling (where - -mutations > 2) or all, are reported.
+* -cut (all|wild|mut) outputs suggestions which cut either, just the wildtype or just the mutant sequence.
+* -zero includes - -mutations=0, in order to indicate confounding cut sites.
+* -revcomp reverse complements all sequences.
 
 -h --help --perldoc give help
 
