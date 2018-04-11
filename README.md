@@ -1,9 +1,9 @@
-#dPACS.pl#
+# dPACS.pl
 
 
 This perl script is intended as a design tool for use with the dPACS method [insert literature reference here - TBC]
 
-###Installation
+### Installation
 
 Installation assumes a basic knowledge of perl and the EMBOSS package.
 
@@ -14,25 +14,25 @@ You'll need the Docopt, List::Util and IPC::Open2 perl modules installed.
 
 The script also requires access to temp space (e.g./tmp) if you need to change this, it's at the top of the script ($TMPDIR and also the command to create the subdirectory, below it.).
 
-###Usage
+### Usage
 
 The script accepts various command line parameters:
-- -wildseq and - -mutseq are the two oligonucleotide sequences, as strings.
-- -mutations is the number of mutations allowed to create the restriction site
-- -scan (left|right|straddle|all) controls whether just mutations to the left, right, straddling (where - -mutations > 2) or all, are reported.
-- -cut (all|wild|mut) outputs suggestions which cut either, just the wildtype or just the mutant sequence.
-- -zero includes - -mutations=0, in order to indicate confounding cut sites.
-- -revcomp reverse complements all sequences.
+..* -wildseq and - -mutseq are the two oligonucleotide sequences, as strings.
+..* -mutations is the number of mutations allowed to create the restriction site
+..* -scan (left|right|straddle|all) controls whether just mutations to the left, right, straddling (where - -mutations > 2) or all, are reported.
+..* -cut (all|wild|mut) outputs suggestions which cut either, just the wildtype or just the mutant sequence.
+..* -zero includes - -mutations=0, in order to indicate confounding cut sites.
+..* -revcomp reverse complements all sequences.
 
 -h --help --perldoc give help
 
 The script can be run at the command line, easily incorporated into a galaxy (https://usegalaxy.org/) installation, or could pretty easily be modified to run as a web cgi.
 
-###Copyright
+### Copyright
 
 Copyright © 2018 a Syngenta group company
 
-###License Information
+### License Information
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -61,7 +61,7 @@ You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
-###Contact Details
+### Contact Details
 
 Contact can be made at open.publishing@syngenta.com
 
